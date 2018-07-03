@@ -1,0 +1,91 @@
+
+	#form{
+	background-color:yellow;
+	height:400px;
+	width:300px;
+	padding-left: 50px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    margin-left: 450px;
+    margin-top: -70px;
+    border-radius: 30px;
+}
+#h1{
+	text-align: center;
+	color:green;
+	margin-top: 30px;
+}
+#firstname{
+	color:red;
+	font-size: 12px;
+}
+#lastname{
+	color:red;
+	font-size: 12px;
+}
+#username{
+	color:red;
+	font-size: 12px;
+}
+#email{
+	color:red;
+	font-size: 12px;
+}
+#password{
+	color:red;
+	font-size: 12px;
+}
+#form2{
+	background-color: lightgreen;
+	height: 200px;
+	padding-left: 40px;
+	padding-top: 20px;
+	width:300px;
+	text-align: :center;
+	margin-left: 450px;
+	margin-top: -20px;
+	border-radius: 30px;
+}
+.a1{
+	margin-left: 50px;
+}
+.c{
+	margin-left: 100px;
+}
+#passwords{
+	color:red;
+	font-size: 12px;
+}
+#mobile{
+	color:red;
+	font-size: 12px;
+}
+.table{
+	background-color: red;
+	height:100px;
+	width:200px;
+}
+.b
+{
+	height:20px;
+	width:80px;
+	border-radius:2px;
+	margin-top: 20px;
+	margin-left: 80px;
+	background-color:green;
+}
+#img1{
+	margin-left: 1000px;
+}
+#img2{
+	margin-left: 600px;
+	margin-top: -70px;
+}
+#paragraph{
+	margin-left: 950px;
+}
+#img3{
+	margin-left: 600px;
+	margin-top: 30px;
+}
