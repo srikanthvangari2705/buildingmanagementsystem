@@ -1,0 +1,32 @@
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type= "text/javascript" src="validation.js"></script>
+</head>	
+	<body>
+		<h1>Building Details</h1>
+		<div id="building">
+			
+		<form name="form1" method="POST" action="db_delete.php" onsubmit="return validateForm();">
+		Building Id:<input type="text" name="name" disabled><br>
+		Service Number*<input type="text" name="snumber" required><span id="servicenumber"><br>
+		Building Group<input type="text" name="building group"><br>
+		Building Name<input type="text" name="building name"><br>
+		Description*<input type="text" name="Description" size="30" required><br>
+		Status<input class="a1" type="radio" name="status" value="other" status> Active
+		Status<input class="a1" type="radio" name="status" value="other" required> Closed<br>
+		<select class="a1" name="State">
+    	<option value="Selangor">Selangor</option>
+    	<option value="Kuala lumpur">Kuala lumpur</option>
+    	<option value="johor bahru">johor bahru</option>
+  		</select>
+  		<br>
+  		<input type="submit" value="SAVE" name="SAVE">
+  		<input type="button" value="DELETE" name="DELETE">
+
+  	
+  </form>
+  	</div>
+
+	</body>
+</html>

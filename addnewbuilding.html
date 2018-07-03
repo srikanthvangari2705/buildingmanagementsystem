@@ -1,0 +1,32 @@
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<script type= "text/javascript" src="validation.js"></script>
+</head>
+	<body>
+		<h1>Building Details</h1>
+		<div id="building">
+			
+		<form name="myForm"   method="POST" action=""  onsubmit="return validateForm();">
+		Building Id:<input type="text" name="name" disabled><br>
+		Service Number*<input type="text" name="snumber"><span id="servicenumber"><br>
+		Building Group<input type="text" name="building group"><br>
+		Building Name<input type="text" name="building name"><br>
+		Description*<input type="text" name="Description" size="30"><br>
+		Status<input class="a1" type="radio" name="status" value="other"> Active
+		Status<input class="a1" type="radio" name="status" value="other"> Closed<br>
+		<select class="a1" name="State">
+    	<option value="Selangor">Selangor</option>
+    	<option value="Kuala lumpur">Kuala lumpur</option>
+    	<option value="johor bahru">johor bahru</option>
+  		</select>
+  		<br>
+  		<input type="submit" value="ADD" name="SAVE">
+  		
+
+  	
+  </form>
+  	</div>
+
+	</body>
+</html>
